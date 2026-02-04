@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -14,8 +15,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color:white;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,7 +26,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color:aqua;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +37,70 @@
     transform: rotate(360deg);
   }
 }
+.my-link{
+text-decoration: none;
+}
+
+.product_img{
+  object-fit: contain;
+  width: 100%;
+  height: 200px;
+}
+.my-card {
+  background-color: #f8f8f8;    
+  border-radius: 8px;           
+  padding: 20px;                
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.2s ease, box-shadow 0.2s ease; 
+  border: none;
+  margin: 0;
+}
+.my-card:hover {
+  transform: translateY(-5px);  
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.purchase-button {
+  background-color: #0d6efd; /* Bootstrap primary blue */
+  border-color: #0d6efd;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.purchase-button:hover {
+  background-color: #084298; /* Darker blue on hover */
+  border-color: #062d68;
+}
+/* Product card styling */
+.product-card {
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Zoom effect on hover */
+.product-card:hover {
+  border-color: #0d6efd; /* Bootstrap primary blue, change as needed */
+}
+
+/* Ensure smooth image zoom */
+.product-card .product-image {
+  transition: transform 0.4s ease;
+}
+
+/* Zoom image when hovering the whole card */
+.product-card:hover .product-image {
+  transform: scale(1.05);
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1030;
+}
+.navbar.sticky-top {
+  z-index: 1030; /* Bootstrap default navbar z-index */
+}
+.logo {
+  width: 300px;   /* or any size you want */
+  height: auto;   /* keeps the aspect ratio */
+}
+
+
