@@ -2,7 +2,7 @@
 import axios from "axios";
 import { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 
 const Makepayment = () => {
     // Extract product data from router state (passed from previous page)
