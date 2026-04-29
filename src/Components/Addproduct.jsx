@@ -84,7 +84,7 @@ const AddProducts = () => {
       const token = user?.token;
 
       // Make API request
-      const response = await axios.post(
+       await axios.post(
         "https://joemwangi.pythonanywhere.com/api/add_product",
         formData,
         {
