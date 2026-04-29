@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Eye, EyeOff, Key, User, Mail, Phone, AlertCircle, CheckCircle, Spinner } from "lucide-react";
+import { Eye, EyeOff, Key, User, Mail, Phone, AlertCircle, CheckCircle,} from "lucide-react";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 
