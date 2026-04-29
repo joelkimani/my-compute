@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
 // import { Link } from "react-router-dom";
-import Carousel from "./Carousel";
+// import Carousel from "./Carousel";
 import Footer from "./Footer";
 // import { hover } from "@testing-library/user-event/dist/hover";
 
@@ -128,11 +128,11 @@ const GetProducts = () => {
      * Handles purchase button click
      * In actual implementation, this would navigate to payment page
      */
-    const handlePurchase = (product) => {
-        console.log("Purchase clicked for:", product.product_name);
-        alert(`Redirecting to payment for ${product.product_name}`);
-        // Original: navigate('/makepayment', { state: { product } });
-    };
+    // const handlePurchase = (product) => {
+    //     console.log("Purchase clicked for:", product.product_name);
+    //     alert(`Redirecting to payment for ${product.product_name}`);
+    //     // Original: navigate('/makepayment', { state: { product } });
+    // };
 
     /**
      * Loads more products by increasing visible count
